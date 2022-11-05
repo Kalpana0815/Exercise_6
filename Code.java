@@ -12,6 +12,9 @@ class MathOpertations{
 			int diffRes = mo.diff(a,b);
 			System.out.println(diffRes);
 
+			int divRes = mo.div(b,a);
+			System.out.println(divRes);
+
 		}
 
 			public int sum(int a, int b){
@@ -25,4 +28,8 @@ class MathOpertations{
 				return a-b;
 
 		}
+
+			public int div(int a, int b);
+
+				return(b/a);
 }
